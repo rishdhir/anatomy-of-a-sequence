@@ -1,0 +1,13 @@
+/* Panda's dark section palettes. Full-canvas themes. */
+body[data-theme]{--ink:#f0f4fa;--muted:#b9c4d2;--line:#ffffff29;--panel:#ffffff08;--accent:#c3b3de;--tint:#262b35;background:var(--bg);color:var(--ink);transition:none}
+body[data-theme=graphite]{--bg:#111317;--tint:#23262e;--accent:#c3b3de}
+body[data-theme=midnight]{--bg:#121d2b;--tint:#23344b;--accent:#aacaf0;--muted:#becbdc}
+body[data-theme=plum]{--bg:#201a24;--tint:#392b40;--accent:#dfbfe8;--muted:#cbbfd0}
+body[data-theme=teal]{--bg:#142c29;--tint:#203e38;--accent:#b0e3d0;--muted:#bbd1c9}
+body[data-theme=warm]{--bg:#1c1b19;--tint:#302c25;--accent:#e6cba4;--muted:#cfc4b5}
+body[data-theme] .slide,body[data-theme] .slide[data-palette]{--accent:inherit;--tint:inherit;background:transparent;border-radius:0}
+body[data-theme] .explorer-vertical>.explore-body{background:var(--tint);border-color:var(--line)}
+body[data-theme] .prompt-card{background:var(--panel);border-color:var(--line)}
+body[data-theme] .mini-timeline{background:var(--panel);border-color:var(--line)}
+body[data-theme] .source-visual>figure>img,body[data-theme] .source-visual>img{border-color:var(--line)}
+@media(prefers-reduced-motion:reduce){body[data-theme]{transition:none}}
