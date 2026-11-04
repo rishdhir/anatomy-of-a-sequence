@@ -37,3 +37,7 @@
 
 .realism-grid{display:grid;grid-template-columns:.55fr 1.45fr;gap:35px;align-items:center}.realism-diagram{width:100%;max-height:205px;color:var(--accent)}.realism-caption{text-align:center;color:var(--muted);font-size:13px}.realism-diagnosis h3{font-size:30px;margin-bottom:18px}.realism-diagnosis .tag{margin:12px 0 6px;color:var(--accent)}.realism-diagnosis p{font-size:17px;color:var(--muted);max-width:850px}.realism .slide-content{gap:18px}.realism .explore-panel{gap:20px}.realism-prompt{padding:18px 24px}.realism-prompt blockquote{font-size:18px}.realism .takeaway{font-size:24px}.realism .explore-tabs button{min-width:0}.realism .explore-tabs{width:100%}.realism .explore-tabs button{flex:1;justify-content:center}
 @media(max-width:700px){.realism-grid{grid-template-columns:1fr;gap:16px}.realism-diagram{height:120px}.realism-diagnosis h3{font-size:25px}.realism-diagnosis p{font-size:16px}.realism .explore-tabs button{padding:12px 7px;font-size:12px}.realism-prompt blockquote{font-size:16px}.realism .takeaway{font-size:21px}}
+
+/* Default dock position matches the supplied placement reference. */
+.deck-footer{bottom:1.5vh;padding-right:3.2vw}
+@media(max-width:600px){.deck-footer{padding-right:0}}
